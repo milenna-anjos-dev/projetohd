@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    
+}
+
+:root{
+    --height-ful: 100vh
+}
+
+html{
+     scroll-behavior: smooth;
+
+}
+
+.hero {
+    background-image: url(../images/motos/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: var(--height-ful)
+}
+
+.box {
+    height: var(--height-ful);
+}
